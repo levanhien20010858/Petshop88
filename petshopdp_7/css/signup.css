@@ -1,0 +1,136 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+.wraper {
+  margin: 100px 0px 0px 0px;
+  display: flex;
+  /* background-color: black; */
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+a {
+  text-decoration: none;
+}
+.signup {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 2px 5px gray;
+  width: 755px;
+}
+.signup-left {
+  float: left;
+  border: 1px solid rgb(0, 0, 0);
+  width: 304px;
+  background: #13102b;
+}
+.login-right {
+  float: right;
+  width: 449px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.signup-left .logo {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.signup-left p {
+  margin: 40px 30px 40px 30px;
+  color: white;
+}
+.signup-left .signup-with {
+  margin: 20px 30px 0px 30px;
+}
+.signup-with span {
+  color: white;
+}
+.signup-with a {
+  padding: 10px 0px 10px 0px;
+  display: flex;
+  justify-content: center;
+}
+.signup-with .signin {
+  border-radius: 6px;
+}
+.signup-with .fb {
+  background: #3b5999;
+  margin-bottom: 25px;
+}
+.signup-with .tw {
+  background: #00acee;
+  margin-bottom: 25px;
+}
+.signup-with .gg {
+  background: #c42f11;
+  margin-bottom: 10px;
+}
+.return-home {
+  margin: 20px 60px 30px 60px;
+  color: white;
+  background: #ff4400;
+}
+/* dadm 361 253 445 460 72*/
+.login-content {
+  width: 79.8%;
+  height: 56.85%;
+  margin: 30px 0px 0px 0px;
+  /* background: #545454;*/
+}
+.form-group {
+  /* background: #c42f11;*/
+  height: 28.45%;
+  width: 100%;
+}
+.form-group input {
+  /* width: 340px;
+  height: 50px; */
+  width: 95%;
+  height: 50px;
+  margin: 0px 0px 20px 0px;
+  padding: 0px 0px 0px 20px;
+  font-size: 100%;
+  border: 1px solid gray;
+  box-shadow: 0px 1px 1px gray;
+  border-radius: 5px;
+}
+.form-group button {
+  box-shadow: 0px 2px 5px rgb(206, 206, 206);
+  /* width: 359px;
+  height: 50px; */
+  width: 101%;
+  height: 50px;
+  margin: 0px 0px 20px 0px;
+  font-size: 19px;
+  background: #5077ff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}
+.rm-fp {
+  display: flex;
+  justify-content: space-around;
+}
+.login-right a {
+  color: blue;
+}
+.login-right a:hover {
+  text-decoration: underline;
+}
+
+.rm-fp .rm {
+  display: flex;
+  align-items: center;
+  color: gray;
+  margin: 0px 0px 20px 0px;
+}
+.rm-fp .rm input {
+  margin: 0px 5px 0px 0px;
+  width: 14px;
+  height: 14px;
+}
